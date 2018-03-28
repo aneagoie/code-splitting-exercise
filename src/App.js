@@ -5,6 +5,8 @@ import Page1 from './Components/Page1';
 // Part 1 - No Code Splitting
 import Page2 from './Components/Page2';
 import Page3 from './Components/Page3';
+// Part 3 - Cleaner Code Splitting
+// import AsyncComponent from './AsyncComponent';
 
 class App extends Component {
   constructor() {
@@ -12,7 +14,7 @@ class App extends Component {
     this.state = {
       route: 'page1',
       // Part 2 - Code Splitting - manual
-      // component: ''
+      // component: null
     }
   }
   onRouteChange = (route) => {
@@ -53,6 +55,17 @@ class App extends Component {
     //   return <Page1 onRouteChange={this.onRouteChange} />
     // } else {
     //   return <this.state.component onRouteChange={this.onRouteChange} />
+    // }
+
+    // Part 3 - Cleaner Code Splitting
+    // if (this.state.route === 'page1') {
+    //   return <Page1 onRouteChange={this.onRouteChange} />
+    // } else if (this.state.route === 'page2') {
+    //   const AsyncPage2 = AsyncComponent(() => import("./Components/Page2"));
+    //   return <AsyncPage2 onRouteChange={this.onRouteChange} />
+    // } else {
+    //   const AsyncPage3 = AsyncComponent(() => import("./Components/Page3"));
+    //   return <AsyncPage3 onRouteChange={this.onRouteChange} />
     // }
 
   }
