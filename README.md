@@ -1,4 +1,4 @@
-# robofriends
+# Learn About Code Splitting
 Tutorial for udemy course - Code Splitting
 To run the project:
 
