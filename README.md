@@ -1,5 +1,5 @@
 # Learn About Code Splitting
-Tutorial for udemy course - Code Splitting
+Code Splitting
 To run the project:
 
 1. Clone this repo
