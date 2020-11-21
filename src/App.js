@@ -29,6 +29,7 @@ class App extends Component {
     //       this.setState({ route: route, component: Page2.default })
     //     })
     //     .catch(err => {
+    //       console.log(err)
     //     });
     // } else {
     //   import('./Components/Page3')
