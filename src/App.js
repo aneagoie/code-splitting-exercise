@@ -41,6 +41,7 @@ class App extends Component {
     //     });
     // }
   }
+  
   render() {
     // Part 1 - No code splitting
     if (this.state.route === 'page1') {
