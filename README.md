@@ -1,4 +1,4 @@
-# Learn About Code Splitting
+# Learn About Code Splitting: See the updated version here: https://github.com/aneagoie/code-splitting-exercise-updated 
 Code Splitting 
 To run the project:
 
